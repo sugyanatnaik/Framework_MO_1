@@ -7,15 +7,13 @@ import org.openqa.selenium.support.FindBy;
 public class LoginPage {
 
 	WebDriver driver;
-
+	
+	// This is new commit from Sugyan
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
+		
 	}
 
-	// @FindBy(xpath = "//span[text()='Log In']") WebElement firstLogin;
-	// @FindBy(name = "email") WebElement uname;
-	// @FindBy(name = "password") WebElement pass;
-	// @FindBy(xpath = "//div[text()='Login']") WebElement finalLogin;
 
 	@FindBy(name = "email")	WebElement uname;
 	@FindBy(id = "pass") WebElement pass;
