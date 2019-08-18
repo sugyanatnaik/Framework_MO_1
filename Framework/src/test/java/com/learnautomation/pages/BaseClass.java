@@ -44,7 +44,7 @@ public class BaseClass {
 	public void setUp() {
 		Reporter.log("Setting up Browser and getting application ready",true);
 		
-		driver = BrowserFactory.startApplication(driver, config.getBrowser(), config.getStagingURL());
+		//driver = BrowserFactory.startApplication(driver, config.getBrowser(), config.getStagingURL());
 		
 		Reporter.log("Browser and application is up and running",true);
 	}
